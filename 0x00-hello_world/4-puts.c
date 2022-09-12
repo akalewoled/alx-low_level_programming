@@ -1,4 +1,9 @@
 #include<stdio.h>
+/*the commt 
+ * using betty dcumntaion style
+ * Discription :using the main funuction
+ *Return: 0
+ */
 
 int main(void)
 {
