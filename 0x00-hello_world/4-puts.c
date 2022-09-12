@@ -1,5 +1,7 @@
 #include<stdio.h>
 
-/**
-* main -p print the tring in the put funuction
-*
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return(0);
+}
