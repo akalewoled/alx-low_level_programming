@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main-print the string in the put funution
+ * main - print the string in the put funution
  * Discription: using the main funuction
- * Return:0
+ * Return: 0
  */
 int main(void)
 {
