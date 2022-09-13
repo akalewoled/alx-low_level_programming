@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	//abcd the name
-	puts("/""Programming is like building a multilingual puzzle");
+	/*
+	 * abcd the name
+	 **/
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
