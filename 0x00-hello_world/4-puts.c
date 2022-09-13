@@ -1,11 +1,14 @@
 #include<stdio.h>
-/*
- * * using betty dcumntaion style
+/**
+ * main - entry pont using betty dcumntaion style
+ * 
  * Discription :using the main funuction
+ * 
  * Return: 0
  */
 int main(void)
 {
+
 	/*
 	 * abcd the name
 	 **/
