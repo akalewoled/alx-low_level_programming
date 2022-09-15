@@ -1,16 +1,15 @@
 /**
+  * _isupper - check if c is upper
  *
- *  * _isupper - check if c is upper
+ *   
  *
- *   *
+ *    discription: input for alphabet
  *
- *    * @c: input for alphabet
+ *    @c:abcd 
  *
- *     *
+ *     Return: 1 if its uppercase, 0 if not
  *
- *      * Return: 1 if its uppercase, 0 if not
- *
- *      */
+ */
 
 
 
