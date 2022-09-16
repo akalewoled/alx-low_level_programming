@@ -47,7 +47,6 @@ void largest_prime_factor(long int num)
 
 /**
  * main -abcd
- *  num must be odd so we proceed to the next prime number (plus two) 
  *  @2 -abcd
  */
 
