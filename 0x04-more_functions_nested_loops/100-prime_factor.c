@@ -37,20 +37,21 @@ double _sqrt(double x)
 void largest_prime_factor(long int num)
 
 {
+	                                                                                                                               
 
-		int prmNu, largest;
+	/**                                                                   
+	 *  main -abcd                                                      
+	 *    */                                                                                                                             
 
-		/* first divide with the smallest prime number (two) */
+	      
+		int q,  prmNu, largest;
+
+		q = 2;
 
 		while (num % 2 == 0)
 			num = num / 2;
-
-/**
- * main -abcd
- *  @2 -abcd
- */
-
-	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += 2)
+		
+	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += q)
 	{
 		while (num % prmNu == 0)
 		{
