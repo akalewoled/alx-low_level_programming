@@ -1,4 +1,4 @@
-/*
+/**
    * _strlen - returns the length of a stri
 * @s: string parameter inpu
    * Return: length of string
