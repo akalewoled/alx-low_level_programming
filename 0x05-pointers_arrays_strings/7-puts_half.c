@@ -24,8 +24,12 @@ void puts_half(char *str)
 		}
 	_putchar('\n');
 }
-
-int _strlen(char *s)
+/**
+ * _strlen - a bcd
+ * @s: abcd
+ * Return: intiger
+ */
+ int _strlen(char *s)
 {
 	int len = 0;
 
