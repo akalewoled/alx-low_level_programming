@@ -29,7 +29,8 @@ void puts_half(char *str)
  * @s: abcd
  * Return: intiger
  */
- int _strlen(char *s)
+
+int _strlen(char *s)
 {
 	int len = 0;
 
