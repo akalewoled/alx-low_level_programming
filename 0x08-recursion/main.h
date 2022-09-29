@@ -22,5 +22,10 @@ int find_strlen(char *s);
 
 int wildcmp(char *s1, char *s2);                                                                                                                                                                                                                                            
 int find_strlen(char *s);
+int is_divisible(int num, int div);                                                 
+
+int is_prime_number(int n);                                                         
+
+int is_divisible(int num, int div);
 #endif
 
