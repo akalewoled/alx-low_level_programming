@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+
+/** 
+ * isNum -abcd abcd
+ * @num :kkmkm
+ * Return: 0
+ */
 int isNum(char num[])
 {
 	int i, l = strlen(num);
@@ -18,14 +24,12 @@ int isNum(char num[])
 * @argv: array pointer that holds the arguments passe
  * Return: Always 0 (Succe
  */
-
 int main(int argc, char *argv[])
 {
 	int i, sum;
 
-	if (argc == 1){
+	if (argc == 1)
 		printf("0\n");
-	}
 	else
 	{
 		sum = 0;
