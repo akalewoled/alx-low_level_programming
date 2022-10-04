@@ -3,7 +3,7 @@
  * create_array - what the fuck
  * @size : errray size
  * @c :array intialize
- * Return: array beteseb @a 
+ * Return:array betese
  */
 char *create_array(unsigned int size, char c)
 {
