@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-
-/** 
+/**
  * isNum -abcd abcd
  * @num :kkmkm
  * Return: 0
