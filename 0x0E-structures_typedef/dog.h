@@ -3,8 +3,8 @@
 /**
  * struct dog - dog sturcture
  * @name:charcter pointer
- * @float:num
- * @owner abcd
+ * @age:num
+ * @owner: abcd
  */
 struct dog
 {
