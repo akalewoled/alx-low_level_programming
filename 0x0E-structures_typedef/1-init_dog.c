@@ -2,6 +2,7 @@
 
 /**
  * init_dog - ssghn
+ * @d:instance
  * @name: the aem
  * @age :age
  * @owner: the new owner
