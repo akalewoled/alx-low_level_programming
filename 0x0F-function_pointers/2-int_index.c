@@ -1,12 +1,12 @@
 #include <stddef.h>
 #include "function_pointers.h"
 /**
- * int_index -idk
+ * int_index - idk
  * @array :array
  * @size: naew
  * @cmp:new
- * Retun:abcd
- * */
+ * Return:abcd
+ */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
