@@ -42,9 +42,11 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			exit(2);				
 		}
-		for (index = 0; index < nbytes; index++){										printf("%02x", ptr[index] & 0xFF);
+		for (index = 0; index < nbytes; index++)
+		{										printf("%02x", ptr[index] & 0xFF);
 			if (index != nbytes - 1)
 				printf(" ");									}
-		printf("\n")
+		printf("\n");
 			return (0);
 	}
+}
