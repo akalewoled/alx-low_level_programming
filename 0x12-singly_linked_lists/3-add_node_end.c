@@ -3,8 +3,8 @@
    * add_node_end - adds a node at the end of the linked list
      * @head: pointer to the first node of the list
       * @str: string to a
-     * Return: NULL if it fails / starting addr of the list
-     */ 
+   * Return: NULL if it fails / starting addr of the list
+   */
 list_t *add_node_end(list_t **head, const char *str)
 
 {
@@ -24,9 +24,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	new_node->next = NULL;
 	/*copy our starting node pointer to temp*/
 	temp = *head;
-	/*if temp is NULL place our new_node at the beginning of the list*/
-	/*else if its not null we place our new_node to temp->next hence
-	 /*adding our new_node at the end of the list*/
 	if (temp == NULL)
 		*head = new_node;
 	else
@@ -34,6 +31,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		while (temp->next != NULL)
 			temp = temp->next;
 		temp->next = new_node;
-	}	
+	}
 		return (*head);
 }
