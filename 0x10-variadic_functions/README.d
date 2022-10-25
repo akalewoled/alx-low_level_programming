@@ -1,1 +1,0 @@
-vardic funuctions
