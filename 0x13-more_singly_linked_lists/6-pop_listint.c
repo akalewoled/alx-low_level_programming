@@ -11,6 +11,7 @@ int pop_listint(listint_t **head)
 	int first_node;
 
 	listint_t *temp, *next;
+
 	if (*head == NULL)
 		return (0);
 	/*set head addr to temp*/
