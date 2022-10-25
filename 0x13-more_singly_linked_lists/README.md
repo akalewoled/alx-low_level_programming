@@ -1,2 +1,1 @@
-this is the three 
-and four 
+this is assignment for the linked list
